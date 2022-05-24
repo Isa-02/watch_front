@@ -1,0 +1,51 @@
+header, footer{
+  height: 5vh;
+  background: rgb(36, 36, 45);
+  text-align: center;
+  color: white;
+
+  
+}
+.link{
+  margin: 2vh 4em;
+  font-size: 20px;
+  font-weight: 600;
+}
+.wrap{
+  display: flex;
+}
+.sidebear{
+  width: 25%;
+}
+.main_con{
+  min-height: 93vh;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main_card{
+  width: 26%;
+  margin-top: 3vh;
+  box-shadow: 0 0 6px gray;
+}
+.main_card:hover{
+  box-shadow: 0 0 20px gray;
+
+}
+.price{
+  padding: 15px;
+}
+.main_card div:first-child{
+  height: 70%;
+  text-align: center;
+}
+.main_card div:first-child img{ 
+  height: 100%;
+}
+.top_card{
+  display: flex;
+}
+.top_card div:last-child{
+  width: 50%;
+}
